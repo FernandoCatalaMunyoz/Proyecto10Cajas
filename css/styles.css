@@ -14,7 +14,15 @@ body {
   height: 4em;
   width: 4em;
   margin: 1em;
+  transition: 1s;
 }
+.boxes:hover {
+  border-radius: 25%;
+  cursor: pointer;
+  transition: 1s;
+  scale: 150%;
+}
+
 #box1 {
   background-color: red;
 }
