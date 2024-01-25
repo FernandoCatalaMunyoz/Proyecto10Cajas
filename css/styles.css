@@ -6,7 +6,8 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: black;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 0fr);
   align-items: center;
   justify-content: center;
 }
