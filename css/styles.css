@@ -14,7 +14,7 @@ body {
   height: 4em;
   width: 4em;
   margin: 1em;
-  transition: 1s;
+  transition: 0.5s;
 }
 .boxes:hover {
   border-radius: 25%;
